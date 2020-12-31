@@ -1,7 +1,7 @@
 /*
     Author : Aleksandar (AcoX) Jeremic
     Name : AA | Front-Back End Developer
-    Tags :  sidebarrl, sidebar__logo sidebar, sidebar__link, sidebar_connect, sidebar_connect_link
+    Tags :  sidebarrl, sidebar__logo sidebar, sidebar__link, sidebar_connect, sidebar_connect_link, homepage
     Version : v0.1
 */
 * {
@@ -82,3 +82,8 @@ media reponsive end
 /*
 SideBar end
 */
+
+.homepage {
+    width: 100%;
+    height: 100%;
+}
