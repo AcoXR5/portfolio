@@ -1,7 +1,7 @@
 /*
     Author : Aleksandar (AcoX) Jeremic
     Name : AA | Front-Back End Developer
-    Tags :  sidebarrl, sidebar, sidebar__link
+    Tags :  sidebarrl, sidebar__logo sidebar, sidebar__link, sidebar_connect, sidebar_connect_link
     Version : v0.1
 */
 * {
@@ -38,6 +38,10 @@ SideBar
     min-height: 500px;
     z-index: 3;
 }
+.sidebar__logo {
+    display: block;
+    padding: 8px 0;
+}
 .sidebar {
     display: block;
     text-align: center;
@@ -49,9 +53,19 @@ SideBar
     line-height: 51px;
     display: block;
     font-size: 1rem;
-    color: #dfdfdf;
+    color: whitesmoke;
 }
-
+.sidebar_connect {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sidebar_connect_link {
+    display: block;
+    padding: 7px 0;
+    font-size: 1rem;
+    color: whitesmoke;
+}
 /* 
 media reponsive
 */
