@@ -1,0 +1,36 @@
+/*
+    Author : Aleksandar (AcoX) Jeremic
+    Name : AA | Front-Back End Developer
+    Tags :  sidebarrl, sidebar, sidebar__link
+    Version : v0.1
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+a, li , ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #333;
+}
+html {
+    color: #333;
+    font-size: 1em;
+}
+body {
+    background: #1b1c1e;
+    display: block;
+}
+.sidebarrl {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #1b1c1e;
+    border-right: 1px solid #2b2b2b;
+    height: 100%;
+    min-height: 500px;
+    z-index: 3;
+}
