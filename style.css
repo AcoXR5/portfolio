@@ -55,6 +55,10 @@ SideBar
     font-size: 1rem;
     color: whitesmoke;
 }
+.sidebar__link:hover, 
+.sidebar_connect_link:hover {
+    color: rgb(93, 0, 185);
+}
 .sidebar_connect {
     display: block;
     text-align: center;
