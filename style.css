@@ -119,9 +119,10 @@ SideBar end
     font-weight: bold;
 }
 .r:hover {
+    display: inline-block;
     color: #ab02c1;
-    animation-duration: 1s;
-    animation-name: mymove;
+    animation: mymove 1000ms infinite;
+    -webkit-animation: mymove 1000ms infinite;
 }
 @keyframes mymove {
     from {
