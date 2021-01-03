@@ -64,7 +64,7 @@ SideBar
 .sidebar__link:hover, 
 .sidebar_connect_link:hover,
 .sidebar__link .active {
-    color: #c700e2 ;
+    color: #c10202 ;
 }
 .sidebar_connect {
     display: block;
@@ -120,7 +120,7 @@ SideBar end
 }
 .r:hover {
     display: inline-block;
-    color: #ab02c1;
+    color: #c10202;
     animation: mymove 1000ms infinite;
     -webkit-animation: mymove 1000ms infinite;
 }
@@ -154,13 +154,13 @@ SideBar end
     }
   } 
 span.fp {
-    color: #ab02c1;
+    color: #c10202;
     font-size: 69px;
     letter-spacing: -39.5px;
 }
 
 span.fdp {
-    color: #500079;
+    color: #650000;
     font-size: 69px;
 }
 .textzone h2{
@@ -169,5 +169,20 @@ span.fdp {
     font-weight: normal;
     font-size: 11px;
     font-family: "Open Sans", sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+.btn {
+    margin-top: 50px;
+    color: #FF0000;
+    border: 2px solid #FF0000;
+    font-size: 13px;
+    padding: 15px 18px;
+    font-family: 'Open Sans', sans-serif;
+    white-space: nowrap;
+    float: left;
+}
+.btn:hover {
+    color: aliceblue;
+    background-color: #FF0000;
 }
