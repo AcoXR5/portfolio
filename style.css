@@ -52,6 +52,7 @@ SideBar
 }
 .sidebar__link {
     position: relative;
+    font-family: 'Open Sans', sans-serif;
     height: 51px;
     margin-bottom: 15px;
     line-height: 51px;
