@@ -119,11 +119,11 @@ SideBar end
 }
 
 h1 .fd {
- color:rgb(93, 0, 185);
+ color: rgb(163, 0, 185);
 }
 
 h1 .fdp {
-    color:royalblue;
+    color: rgb(99, 0, 156);
 }
 .textzone h1:nth-child(8) {
     color: red;
