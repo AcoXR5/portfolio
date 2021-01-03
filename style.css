@@ -121,8 +121,7 @@ SideBar end
     animation-fill-mode: both;
     animation-iteration-count: 1;
 }
-
-.textzone span.blast {
+.blast:hover {
     color: #ab02c1;
     animation-name: rubberBand;
 }
