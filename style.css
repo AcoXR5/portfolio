@@ -95,7 +95,7 @@ SideBar end
     transform-style: preserve-3d;
 }
 
-.home-page .textzone {
+.home-page.textzone {
     position: absolute;
     left: 10%;
     top: 50%;
@@ -105,11 +105,12 @@ SideBar end
     width: 40%;
     max-height: 90%;
 }
-h1.textzone {
+.textzone h1{
     color: whitesmoke;
     font-weight: bold;
 }
-h2.textzone {
+.textzone h2{
     color:aliceblue; 
     opacity: 0.4;
+    font-size: 12px;
 }
