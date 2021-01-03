@@ -117,6 +117,14 @@ SideBar end
     color: #f5f5f5;
     font-weight: bold;
 }
+
+h1 .fd {
+ color:rgb(93, 0, 185);
+}
+
+h1 .fdp {
+    color:royalblue;
+}
 .textzone h1:nth-child(8) {
     color: red;
 }
