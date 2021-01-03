@@ -118,11 +118,11 @@ SideBar end
     font-weight: bold;
 }
 
-h1 .fd {
+span .fd {
  color: rgb(163, 0, 185);
 }
 
-h1 .fdp {
+span .fdp {
     color: rgb(99, 0, 156);
 }
 .textzone h1:nth-child(8) {
