@@ -117,18 +117,13 @@ SideBar end
     margin: 0;
     color: #f5f5f5;
     font-weight: bold;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: 1;
 }
-.blast:hover {
+.r:hover {
     color: #ab02c1;
     animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: 1;
-    animation-name: rubberBand;
+    animation-name: mymove;
 }
-@keyframes rubberBand {
+@keyframes mymove {
     from {
       transform: scale3d(1, 1, 1);
     }
