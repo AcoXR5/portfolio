@@ -158,7 +158,8 @@ SideBar end
 span.fp {
     color: #ab02c1;
     font-size: 69px;
-    letter-spacing: -39.5px
+    letter-spacing: -39.5px;
+}
 
 span.fdp {
     color: #500079;
