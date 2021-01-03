@@ -23,7 +23,11 @@ html {
     font-size: 1em;
 }
 body {
-    background: #1b1c1e;
+    background: #1b1c1e url('1836503.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     display: block;
 }
 /*
@@ -35,7 +39,7 @@ SideBar
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #1b1c1e;
+    background: #1b1c1e8c;
     border-right: 1px solid #2b2b2b;
     height: 100%;
     width: 60px;
@@ -44,7 +48,22 @@ SideBar
 }
 .sidebar__logo {
     display: block;
-    padding: 8px 0;
+    padding: 4px 10px;
+    border-bottom: 1px solid #2b2b2b;
+}
+.fp1 {
+    color: #c10202;
+    font-size: 62px;
+    letter-spacing: -39.2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.fdp1 {
+    color: #650000;
+    font-size: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .sidebar {
     display: block;
@@ -185,4 +204,22 @@ span.fdp {
 .btn:hover {
     color: aliceblue;
     background-color: #FF0000;
+}
+.logo22 {
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 150px;
+    margin-top:50px
+}
+.logo22 span.fp {
+    color: #c10202;
+    font-size: 420px;
+    font-weight: 550;
+    letter-spacing: -271.5px;
+}
+
+.logo22 span.fdp {
+    color: #650000;
+    font-weight: 550;
+    font-size: 420px;
 }
