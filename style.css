@@ -117,7 +117,7 @@ SideBar end
     color: #f5f5f5;
     font-weight: bold;
 }
-.textzone h1::nth-letter(9) {
+.textzone h1:nth-child(8) {
     color: red;
 }
 .textzone h2{
