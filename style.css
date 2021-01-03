@@ -120,14 +120,14 @@ SideBar end
 }
 
 span.fp {
- color: rgb(163, 0, 185);
+    color: #ab02c1;
+    font-size: 69px;
+    letter-spacing: 45px;
 }
 
 span.fdp {
-    color: rgb(99, 0, 156);
-}
-.textzone h1:nth-child(8) {
-    color: red;
+    color: #500079;
+    font-size: 69px;
 }
 .textzone h2{
     color: #8d8d8d;
