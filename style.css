@@ -1,12 +1,12 @@
 /*
     Author : Aleksandar (AcoX) Jeremic
     Name : AA | Front-Back End Developer
-    Tags :  sidebarrl, sidebar__logo sidebar, sidebar__link, sidebar_connect, sidebar_connect_link, homepage, home-page, container, textzone, fdp, fp, btn , logo22
+    Tags :  sidebar__logo sidebar, sidebar__link, homepage, home-page, container, textzone, fdp, fp, btn , logo22
     Version : v0.1
 */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import 'reponsive.css';
+@import './reponsive.css';
 
 * {
     padding: 0;
@@ -33,68 +33,62 @@ body {
 /*
 SideBar
 */
-.sidebarrl {
-    position: fixed;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #1b1c1e8c;
-    border-right: 1px solid #2b2b2b;
-    height: 100%;
-    width: 60px;
-    min-height: 500px;
-    z-index: 3;
-}
 .sidebar__logo {
+    position: absolute;
     display: block;
     padding: 4px 10px;
     border-bottom: 1px solid #2b2b2b;
-}
-.fp1 {
-    color: #c10202;
-    font-size: 62px;
-    letter-spacing: -39.2px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-.fdp1 {
-    color: #650000;
-    font-size: 62px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    z-index: 53;
 }
 .sidebar {
-    display: block;
-    text-align: center;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    min-height: 500px;
+    width: 60px;
+    border-right: 1px solid #2b2b2b;
+    background: inherit;
+    z-index: 3;
+}
+.sidebar:before {
+    content: '';
+    height: 100%;
+    width: 60px;
+    background: inherit; 
+    position: absolute;
+    left: 0; 
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+    filter: blur(10px);
+}
+.sidebar:after {
+    content: '';
+    height: 100%;
+    width: 60px;
+    background: inherit; 
+    position: absolute;
+    left: 0; 
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+    filter: blur(10px);
+}
+.sidebar ul {
+    position: absolute;
+    margin-top: 180px;
+    z-index: 64;
 }
 .sidebar__link {
-    position: relative;
-    font-family: 'Open Sans', sans-serif;
-    height: 51px;
-    margin-bottom: 15px;
-    line-height: 51px;
     display: block;
-    font-size: .69rem;
+    padding: 28px 4.5px;
+    color:whitesmoke;
+    z-index: 1;
+    text-align: center; 
     text-transform: uppercase;
-    color: whitesmoke;
+    font-family: 'Open Sans',sans-serif;
+    font-size: .69rem;
 }
+
 .sidebar__link:hover, 
-.sidebar_connect_link:hover,
-.sidebar__link .active {
+.sidebar__link.active {
     color: #c10202 ;
-}
-.sidebar_connect {
-    display: block;
-    text-align: center;
-    padding-bottom: 20px;
-}
-.sidebar_connect_link {
-    display: block;
-    padding: 7px 0;
-    font-size: 1rem;
-    color: whitesmoke;
 }
 /*
 SideBar end
@@ -110,7 +104,7 @@ SideBar end
     will-change: contents;
     height: 90%;
     min-height: 566px;
-    position: absolute;
+    position: relative;
     top: 5%;
     margin: 0 auto;
     z-index: 1;
@@ -122,7 +116,7 @@ SideBar end
 .home-page.textzone {
     position: absolute;
     left: 10%;
-    top: 50%;
+    top: 80%;
     -webkit-transform: translateY(-50%); 
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -131,11 +125,26 @@ SideBar end
 }
 .textzone h1{
     font-family: 'Archivo Narrow',sans-serif;
-    font-size: 56px;
-    line-height: 56px;
+    font-size: 65px;
+    line-height: 65px;
+    letter-spacing: .15px;
     margin: 0;
     color: #f5f5f5;
     font-weight: bold;
+}
+.fp1 {
+    color: #c10202;
+    font-size: 62px;
+    letter-spacing: -39.2px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.fdp1 {
+    color: #650000;
+    font-size: 62px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 .r:hover {
     display: inline-block;
@@ -183,7 +192,7 @@ span.fdp {
     font-size: 69px;
 }
 .textzone h2{
-    color: #8d8d8d;
+    color: #929292;
     margin-top: 20px;
     font-weight: normal;
     font-size: 11px;
@@ -208,18 +217,18 @@ span.fdp {
 .logo22 {
     float: right;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 150px;
-    margin-top:50px
+    margin-right: 200px;
+    margin-top:80px
 }
 .logo22 span.fp {
     color: #c10202;
-    font-size: 420px;
+    font-size: 490px;
     font-weight: 550;
-    letter-spacing: -271.5px;
+    letter-spacing: -316.5px;
 }
 
 .logo22 span.fdp {
     color: #650000;
     font-weight: 550;
-    font-size: 420px;
+    font-size: 490px;
 }
