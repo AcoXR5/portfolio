@@ -19,7 +19,7 @@ html {
 }
 
 body {
-  background: #1b1c1e url("./dist/img/1836503.jpg") no-repeat center center fixed;
+  background: #1b1c1e url("../dist/img/1836503.jpg") no-repeat center center fixed;
   background-size: cover;
   display: block;
 }
