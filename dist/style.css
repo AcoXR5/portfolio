@@ -24,14 +24,6 @@ body {
   display: block;
 }
 
-.sidebar__logo {
-  position: absolute;
-  display: block;
-  padding: 4px 10px;
-  border-bottom: 1px solid #2b2b2b;
-  z-index: 53;
-}
-
 .sidebar {
   position: fixed;
   left: 0;
@@ -41,6 +33,14 @@ body {
   border-right: 1px solid #2b2b2b;
   background: inherit;
   z-index: 3;
+}
+
+.sidebar__logo {
+  position: absolute;
+  display: block;
+  padding: 4px 10px;
+  border-bottom: 1px solid #2b2b2b;
+  z-index: 53;
 }
 
 .sidebar:before {
@@ -86,8 +86,7 @@ body {
   font-size: .69rem;
 }
 
-.sidebar__link:hover,
-.sidebar__link.active {
+.sidebar__link.active, .sidebar__link:hover {
   color: #c10202;
 }
 
@@ -347,7 +346,7 @@ span.fdp {
 
 .textzone h2 {
   color: #929292;
-  margin-top: 20px;
+  margin-top: 15px;
   font-weight: normal;
   font-size: 11px;
   font-family: "Open Sans", sans-serif;
@@ -355,7 +354,7 @@ span.fdp {
 }
 
 .btn {
-  margin-top: 50px;
+  margin-top: 40px;
   color: #FF0000;
   border: 2px solid #FF0000;
   font-size: 13px;
