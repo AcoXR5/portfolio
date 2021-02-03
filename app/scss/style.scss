@@ -100,15 +100,14 @@ span.fdp {
     margin-right: 200px;
     margin-top:80px
 }
-.logo22 span.fp {
-    color: #c10202;
-    font-size: 490px;
-    font-weight: 550;
-    letter-spacing: -316.5px;
+.test-1 {
+    animation: anim-fill-red 0.8s ease forwards 1.2s;
 }
 
-.logo22 span.fdp {
-    color: #650000;
-    font-weight: 550;
-    font-size: 490px;
+.test-2 {
+    animation: anim-fill-dred 1.5s ease forwards 1.8s;
+}
+
+.test-3 {
+    animation: anim-fill-darkred 2s ease forwards 2.3s;
 }

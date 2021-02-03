@@ -152,6 +152,60 @@ body {
   }
 }
 
+@-webkit-keyframes anim-fill-red {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #F90E0E;
+  }
+}
+
+@keyframes anim-fill-red {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #F90E0E;
+  }
+}
+
+@-webkit-keyframes anim-fill-dred {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #9E0000;
+  }
+}
+
+@keyframes anim-fill-dred {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #9E0000;
+  }
+}
+
+@-webkit-keyframes anim-fill-darkred {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #7B0505;
+  }
+}
+
+@keyframes anim-fill-darkred {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #7B0505;
+  }
+}
+
 /*DESKTOP LARGER SCREENS VERSION*/
 /* DESKTOP small SCREENS HEIGHT LESS THAHN 800px */
 @media (min-width: 960px) and (max-height: 800px) {
@@ -376,16 +430,18 @@ span.fdp {
   margin-top: 80px;
 }
 
-.logo22 span.fp {
-  color: #c10202;
-  font-size: 490px;
-  font-weight: 550;
-  letter-spacing: -316.5px;
+.test-1 {
+  -webkit-animation: anim-fill-red 0.8s ease forwards 1.2s;
+          animation: anim-fill-red 0.8s ease forwards 1.2s;
 }
 
-.logo22 span.fdp {
-  color: #650000;
-  font-weight: 550;
-  font-size: 490px;
+.test-2 {
+  -webkit-animation: anim-fill-dred 1.5s ease forwards 1.8s;
+          animation: anim-fill-dred 1.5s ease forwards 1.8s;
+}
+
+.test-3 {
+  -webkit-animation: anim-fill-darkred 2s ease forwards 2.3s;
+          animation: anim-fill-darkred 2s ease forwards 2.3s;
 }
 /*# sourceMappingURL=style.css.map */

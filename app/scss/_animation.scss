@@ -27,3 +27,25 @@
       transform: scale3d(1, 1, 1);
     }
   } 
+@keyframes anim-fill-red {
+  from {
+    fill: transparent;
+  } 
+  to {
+      fill: #F90E0E;
+  }
+}
+@keyframes anim-fill-dred {
+  from {
+    fill: transparent;
+  } to {
+    fill: #9E0000;
+  }
+}
+@keyframes anim-fill-darkred {
+  from {
+    fill: transparent;
+  } to {
+    fill: #7B0505;
+  }
+}
