@@ -58,8 +58,20 @@
                 <a href="/contact.html" target="_blank" class="btn">Contact Me!</a>
             </div>
             <div class="logo22">
-                <span class="fp">ア</span><span class="fdp">ア</span>
+                <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="400.379" height="583.364" viewBox="0 0 400.379 583.364">
+                    <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(4.518 4.518)">
+                      <text id="ア" transform="translate(26.672 444.737)" fill="none" stroke="#ec0000" stroke-width="4" font-size="402" font-family="YuGothicUI-Semibold, Yu Gothic UI" font-weight="600"><tspan x="0" y="0">ア</tspan></text>
+                      <text id="ア-2" data-name="ア" transform="translate(29.958 442.979) rotate(2)" fill="none" stroke="#ec0000" stroke-width="4" font-size="402" font-family="YuGothicUI-Semibold, Yu Gothic UI" font-weight="600"><tspan x="0" y="0">ア</tspan></text>
+                      <text id="ア-3" data-name="ア" transform="translate(14.056 429.776) rotate(8)" fill="none" stroke="#ec0000" stroke-width="4" font-size="402" font-family="YuGothicUI-Semibold, Yu Gothic UI" font-weight="600"><tspan x="0" y="0">ア</tspan></text>
+                    </g>
+                  </svg>                  
             </div>
         </main>
+        <script>
+            const logo = document.querySelectorAll("#logo path");
+            for (let i = 0; i < logo.length; i++) {
+                console.log('Letter ${i} is ${logo[i].getTotalLength()}');
+            }
+        </script>
     </body>
 </html>
