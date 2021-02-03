@@ -152,42 +152,6 @@ body {
   }
 }
 
-@-webkit-keyframes anim-fill {
-  from {
-    color: transparent;
-  }
-  25% {
-    color: #ff00002e;
-  }
-  50% {
-    color: #ff000066;
-  }
-  75% {
-    color: #ff000080;
-  }
-  to {
-    color: #ff0000;
-  }
-}
-
-@keyframes anim-fill {
-  from {
-    color: transparent;
-  }
-  25% {
-    color: #ff00002e;
-  }
-  50% {
-    color: #ff000066;
-  }
-  75% {
-    color: #ff000080;
-  }
-  to {
-    color: #ff0000;
-  }
-}
-
 @-webkit-keyframes anim-fill-red {
   from {
     fill: transparent;
@@ -452,8 +416,6 @@ span.fdp {
   font-family: 'Open Sans', sans-serif;
   white-space: nowrap;
   float: left;
-  -webkit-animation: anim-fill 0.5s ease forwards 0.7s;
-          animation: anim-fill 0.5s ease forwards 0.7s;
 }
 
 .btn:hover {
