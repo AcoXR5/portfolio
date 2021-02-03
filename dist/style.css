@@ -431,17 +431,17 @@ span.fdp {
 }
 
 .test-1 {
-  -webkit-animation: anim-fill-red 0.8s ease forwards 1.2s;
-          animation: anim-fill-red 0.8s ease forwards 1.2s;
+  -webkit-animation: anim-fill-red 0.2s ease forwards 0.4s;
+          animation: anim-fill-red 0.2s ease forwards 0.4s;
 }
 
 .test-2 {
-  -webkit-animation: anim-fill-dred 1.5s ease forwards 1.8s;
-          animation: anim-fill-dred 1.5s ease forwards 1.8s;
+  -webkit-animation: anim-fill-dred 0.5s ease forwards 0.8s;
+          animation: anim-fill-dred 0.5s ease forwards 0.8s;
 }
 
 .test-3 {
-  -webkit-animation: anim-fill-darkred 2s ease forwards 2.3s;
-          animation: anim-fill-darkred 2s ease forwards 2.3s;
+  -webkit-animation: anim-fill-darkred 0.9s ease forwards 1.2s;
+          animation: anim-fill-darkred 0.9s ease forwards 1.2s;
 }
 /*# sourceMappingURL=style.css.map */
