@@ -2,3 +2,4 @@ app/
 *.txt
 *.scss
 *.code-workspace
+*.map
