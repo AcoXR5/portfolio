@@ -164,20 +164,31 @@ span.fdp {
         margin-top:4px;
         margin-bottom: 4px;
         margin-left:6px;
-        background-color:  grey;
-        height: 10px;
+        background-color:  #333;
+        height: 12px;
         -webkit-border-radius: 1235px;
         -moz-border-radius: 1235px;
         border-radius: 1235px;
 
         &_many {
-            width: 20px;
-            height: 10px;
+            width: 0px;
+            height: 12px;
             background-color: #FF0002;
             -webkit-border-radius: 1235px;
             -moz-border-radius: 1235px;
             border-radius: 1235px;
         }
+    }
+
+    &__procent {
+        float: right;
+        margin-right: 10px;
+        margin-top: -3px;
+        opacity: .65;
+        color: whitesmoke !important;
+        font-weight: 600;
+        font-size: 12px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
 .contact-page.textzone {
