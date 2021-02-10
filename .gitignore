@@ -1,3 +1,4 @@
 app/
 *.txt
 *.scss
+*.code-workspace
