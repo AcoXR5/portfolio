@@ -16,6 +16,7 @@ a, li, ul {
 html {
   color: #333;
   font-size: 1em;
+  scroll-behavior: smooth;
 }
 
 body {
