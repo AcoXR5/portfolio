@@ -673,7 +673,7 @@ span.fdp {
 }
 
 .about-page.textzone h1 {
-  color: #FF0004;
+  color: #3612ae;
   line-height: 70px;
 }
 
@@ -685,27 +685,27 @@ span.fdp {
 }
 
 .fp1 {
-  color: #c10202;
+  color: #2d108d;
 }
 
 .fdp1 {
-  color: #650000;
+  color: #2a117c;
 }
 
 .r:hover {
   display: inline-block;
-  color: #c10202;
+  color: #2d108d;
   animation: mymove 1000ms infinite;
   -webkit-animation: mymove 1000ms infinite;
 }
 
 span.fp {
-  color: #c10202;
+  color: #2d108d;
   letter-spacing: -39.5px;
 }
 
 span.fdp {
-  color: #650000;
+  color: #2a117c;
 }
 
 .textzone h2 {
@@ -715,8 +715,8 @@ span.fdp {
 
 .btn {
   margin-top: 40px;
-  color: #FF0000;
-  border: 2px solid #FF0000;
+  color: #3913b6;
+  border: 2px solid #3913b6;
   padding: 15px 18px;
   white-space: nowrap;
   float: left;
@@ -724,7 +724,7 @@ span.fdp {
 
 .btn:hover {
   color: aliceblue;
-  background-color: #FF0000;
+  background-color: #3913b6;
 }
 
 .logo22 {
@@ -763,7 +763,7 @@ span.fdp {
 }
 
 .skillss h1 {
-  color: #FF0047;
+  color: #3612ae;
   text-transform: uppercase;
 }
 
@@ -786,7 +786,7 @@ span.fdp {
 .proccess__line_many {
   width: 0px;
   height: 12px;
-  background-color: #FF0004;
+  background-color: #3612ae;
   border-radius: 1235px;
 }
 
@@ -809,7 +809,7 @@ span.fdp {
 }
 
 .contact-page.textzone h1 {
-  color: #FF0027;
+  color: #3612ae;
 }
 
 .contact-page.textzone p {
@@ -851,7 +851,7 @@ span.fdp {
 }
 
 .contact-form input[type=text]:focus, .contact-form input[type=email]:focus {
-  border-bottom: 2px solid #FF0027;
+  border-bottom: 2px solid #3612ae;
 }
 
 .contact-form textarea {
@@ -873,6 +873,6 @@ span.fdp {
 }
 
 .contact-form .btn:hover {
-  background-color: #FF0000 !important;
+  background-color: #3913b6 !important;
 }
 /*# sourceMappingURL=style.css.map */
