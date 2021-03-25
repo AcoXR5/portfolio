@@ -551,6 +551,81 @@ body {
   }
 }
 
+.about-page.textzone p {
+  font-size: 15px;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 400;
+}
+
+.about-page.textzone h1 {
+  font-size: 77px;
+}
+
+.textzone h1 {
+  font-family: 'Archivo Narrow',sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.fp1 {
+  font-size: 62px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: -39.2px;
+  font-weight: 600;
+}
+
+.fdp1 {
+  font-size: 62px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+span.fp {
+  font-size: 69px;
+}
+
+span.fdp {
+  font-size: 69px;
+}
+
+.textzone h2 {
+  font-weight: normal;
+  font-size: 11px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn {
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.logo22 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.skillss h1 {
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.proccess__procent {
+  font-weight: 600;
+  font-size: 12px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-page.textzone p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.contact-form input[type=text], .contact-form input[type=email],
+.contact-form textarea {
+  font-size: 16px;
+}
+
 .homepage {
   width: 100%;
   height: 100%;
@@ -594,41 +669,27 @@ body {
 .about-page.textzone p {
   margin-top: 40px;
   margin-left: 10px;
-  font-size: 15px;
   color: #fff;
-  font-family: "Open Sans",sans-serif;
-  font-weight: 400;
 }
 
 .about-page.textzone h1 {
-  color: #FF0002;
-  font-size: 77px;
+  color: #FF0004;
   line-height: 70px;
 }
 
 .textzone h1 {
-  font-family: 'Archivo Narrow',sans-serif;
-  font-size: 65px;
   line-height: 65px;
   letter-spacing: .15px;
   margin: 0;
   color: #f5f5f5;
-  font-weight: bold;
 }
 
 .fp1 {
   color: #c10202;
-  font-size: 62px;
-  letter-spacing: -39.2px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
 }
 
 .fdp1 {
   color: #650000;
-  font-size: 62px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
 }
 
 .r:hover {
@@ -640,31 +701,23 @@ body {
 
 span.fp {
   color: #c10202;
-  font-size: 69px;
   letter-spacing: -39.5px;
 }
 
 span.fdp {
   color: #650000;
-  font-size: 69px;
 }
 
 .textzone h2 {
   color: #929292;
   margin-top: 15px;
-  font-weight: normal;
-  font-size: 11px;
-  font-family: "Open Sans", sans-serif;
-  letter-spacing: 2px;
 }
 
 .btn {
   margin-top: 40px;
   color: #FF0000;
   border: 2px solid #FF0000;
-  font-size: 13px;
   padding: 15px 18px;
-  font-family: 'Open Sans', sans-serif;
   white-space: nowrap;
   float: left;
 }
@@ -676,7 +729,6 @@ span.fdp {
 
 .logo22 {
   float: right;
-  font-family: 'Open Sans', sans-serif;
   margin-right: 200px;
   margin-top: 120px;
 }
@@ -711,10 +763,8 @@ span.fdp {
 }
 
 .skillss h1 {
-  font-size: 40px;
   color: #FF0047;
   text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .proccess p {
@@ -736,7 +786,7 @@ span.fdp {
 .proccess__line_many {
   width: 0px;
   height: 12px;
-  background-color: #FF0002;
+  background-color: #FF0004;
   border-radius: 1235px;
 }
 
@@ -745,10 +795,7 @@ span.fdp {
   margin-right: 10px;
   margin-top: -3px;
   opacity: .65;
-  color: whitesmoke !important;
-  font-weight: 600;
-  font-size: 12px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #f5f5f5 !important;
 }
 
 .contact-page.textzone {
@@ -766,10 +813,7 @@ span.fdp {
 }
 
 .contact-page.textzone p {
-  color: whitesmoke;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
+  color: #f5f5f5;
 }
 
 .contact-form {
@@ -800,7 +844,6 @@ span.fdp {
   border: 0;
   background: #2b2b2b;
   height: 50px;
-  font-size: 16px;
   color: #8d8d8d;
   padding: 0 20px;
   -webkit-box-sizing: border-box;
@@ -816,7 +859,6 @@ span.fdp {
   border: 0;
   background: #2b2b2b;
   height: 50px;
-  font-size: 16px;
   color: #8d8d8d;
   padding: 20px;
   -webkit-box-sizing: border-box;
