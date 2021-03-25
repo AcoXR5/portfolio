@@ -10,7 +10,7 @@
 a, li, ul {
   text-decoration: none;
   list-style-type: none;
-  color: #ff0006;
+  color: #2b2b2b;
 }
 
 html {
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background: #1b1c1e url("../dist/img/1836503.jpg") no-repeat center center fixed;
+  background: #1D1D1D no-repeat center center fixed;
   background-size: cover;
   display: block;
 }
@@ -31,43 +31,18 @@ body {
   height: 100%;
   min-height: 500px;
   width: 60px;
-  border-right: 1px solid #2b2b2b;
+  border-right: 1px solid #6e00db;
   background: inherit;
   z-index: 3;
+  background-color: #000;
 }
 
 .sidebar__logo {
   position: absolute;
   display: block;
   padding: 4px 10px;
-  border-bottom: 1px solid #2b2b2b;
+  border-bottom: 1px solid #6e00db;
   z-index: 4;
-}
-
-.sidebar:before {
-  content: '';
-  height: 100%;
-  width: 60px;
-  background: inherit;
-  position: absolute;
-  left: 0;
-  -webkit-box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-          box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
-}
-
-.sidebar:after {
-  content: '';
-  height: 100%;
-  width: 60px;
-  background: inherit;
-  position: absolute;
-  left: 0;
-  -webkit-box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-          box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.05);
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
 }
 
 .sidebar ul {
@@ -79,7 +54,7 @@ body {
 .sidebar__link {
   display: block;
   padding: 28px 4.5px;
-  color: whitesmoke;
+  color: #f5f5f5;
   z-index: 2;
   text-align: center;
   text-transform: uppercase;
@@ -88,7 +63,7 @@ body {
 }
 
 .sidebar__link.active, .sidebar__link:hover {
-  color: #c10202;
+  color: #7C00F6;
 }
 
 @-webkit-keyframes mymove {
@@ -673,7 +648,7 @@ span.fdp {
 }
 
 .about-page.textzone h1 {
-  color: #3612ae;
+  color: #6e00db;
   line-height: 70px;
 }
 
@@ -685,27 +660,27 @@ span.fdp {
 }
 
 .fp1 {
-  color: #2d108d;
+  color: #5B0DF6;
 }
 
 .fdp1 {
-  color: #2a117c;
+  color: #18005E;
 }
 
 .r:hover {
   display: inline-block;
-  color: #2d108d;
+  color: #5B0DF6;
   animation: mymove 1000ms infinite;
   -webkit-animation: mymove 1000ms infinite;
 }
 
 span.fp {
-  color: #2d108d;
+  color: #5B0DF6;
   letter-spacing: -39.5px;
 }
 
 span.fdp {
-  color: #2a117c;
+  color: #18005E;
 }
 
 .textzone h2 {
@@ -715,8 +690,8 @@ span.fdp {
 
 .btn {
   margin-top: 40px;
-  color: #3913b6;
-  border: 2px solid #3913b6;
+  color: #7C00F6;
+  border: 2px solid #7C00F6;
   padding: 15px 18px;
   white-space: nowrap;
   float: left;
@@ -724,7 +699,7 @@ span.fdp {
 
 .btn:hover {
   color: aliceblue;
-  background-color: #3913b6;
+  background-color: #7C00F6;
 }
 
 .logo22 {
@@ -763,7 +738,7 @@ span.fdp {
 }
 
 .skillss h1 {
-  color: #3612ae;
+  color: #600cb4;
   text-transform: uppercase;
 }
 
@@ -786,7 +761,7 @@ span.fdp {
 .proccess__line_many {
   width: 0px;
   height: 12px;
-  background-color: #3612ae;
+  background-color: #6e00db;
   border-radius: 1235px;
 }
 
@@ -809,7 +784,7 @@ span.fdp {
 }
 
 .contact-page.textzone h1 {
-  color: #3612ae;
+  color: #6f17c7;
 }
 
 .contact-page.textzone p {
@@ -851,7 +826,7 @@ span.fdp {
 }
 
 .contact-form input[type=text]:focus, .contact-form input[type=email]:focus {
-  border-bottom: 2px solid #3612ae;
+  border-bottom: 2px solid #6f17c7;
 }
 
 .contact-form textarea {
@@ -873,6 +848,6 @@ span.fdp {
 }
 
 .contact-form .btn:hover {
-  background-color: #3913b6 !important;
+  background-color: #7C00F6 !important;
 }
 /*# sourceMappingURL=style.css.map */
