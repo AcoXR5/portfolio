@@ -690,8 +690,8 @@ span.fdp {
 
 .btn {
   margin-top: 40px;
-  color: #7C00F6;
-  border: 2px solid #7C00F6;
+  color: #6f17c7;
+  border: 2px solid #6f17c7;
   padding: 15px 18px;
   white-space: nowrap;
   float: left;
@@ -699,7 +699,7 @@ span.fdp {
 
 .btn:hover {
   color: aliceblue;
-  background-color: #7C00F6;
+  background-color: #6f17c7;
 }
 
 .logo22 {
