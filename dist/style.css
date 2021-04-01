@@ -374,7 +374,7 @@ body {
 
 @media (max-width: 960px) {
   .contact-page.textzone {
-    width: 80%;
+    width: 80% !important;
   }
   .sidebar {
     position: fixed !important;
@@ -510,7 +510,7 @@ body {
 
 @media (max-width: 440px) {
   .contact-page.textzone {
-    width: 80%;
+    width: 80% !important;
   }
   .sidebar__logo {
     display: none !important;
