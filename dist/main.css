@@ -234,6 +234,7 @@ html {
     display: none;
   }
   .sidenav__mobile.active {
+    z-index: 1;
     display: block;
     background: #130722;
     color: #000;
