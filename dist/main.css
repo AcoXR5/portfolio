@@ -224,10 +224,9 @@ html {
     color: #fff;
   }
   .sidenav {
-    position: absolute;
+    z-index: 1;
     width: 100%;
     height: 50px;
-    background: #000;
     border-bottom: 1px solid #343434;
   }
   .sidenav__mobile {
@@ -240,8 +239,8 @@ html {
     color: #000;
     height: 100vh;
     width: 100%;
-    top: 101%;
-    position: absolute;
+    top: 9.5%;
+    position: fixed;
   }
   .sidenav__mobile ul {
     display: -webkit-box;
@@ -338,10 +337,10 @@ html {
     margin-left: 40px !important;
   }
   .main__home__container__info {
-    margin-top: 60px !important;
+    margin-top: 70px !important;
   }
   .main__home__container__info h1 {
-    font-size: 50px !important;
+    font-size: 55px !important;
   }
   .main__home__container__info__am {
     width: 60% !important;
@@ -356,7 +355,7 @@ html {
 
 @media (max-width: 767px) {
   .main__home__container__info h1 {
-    font-size: 45px !important;
+    font-size: 50px !important;
   }
   .main__home__container__info span.q {
     font-size: 14px !important;
@@ -365,8 +364,8 @@ html {
 
 @media (max-width: 575px) {
   .main__home__container__info h1 {
-    font-size: 40px !important;
-    font-weight: bold;
+    font-size: 45px !important;
+    line-height: 45px !important;
   }
   .main__home__container__info span.q {
     font-size: 12px !important;
